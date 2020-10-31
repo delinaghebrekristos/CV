@@ -1,0 +1,174 @@
+body {
+  background-color: #212121;
+  display: block;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 19px;
+  color: #eeeeee;
+
+}
+
+
+/**
+16px = 100% = 1em
+
+Only to EM:
+If 2em is in the parent and 4em is put in the child, it will show as 6em
+If you use rem it wont be affected - the most reliable
+*/
+h1 {
+  color: #14ffec;
+  font-size: 5.625rem;
+  margin-top: 50px;
+  font-family: 'Lobster', cursive;
+  /*line-height: 2;*/
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+h2 {
+  color: #14ffec;
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  padding-bottom:1.5px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.first-header{
+  color: #eeeeee;
+  font-size: 2rem;
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+  padding-bottom:1.5px;
+  bottom: 20px;
+}
+a{
+  color: #14ffec;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: #eeeeee;
+}
+
+.top-Container {
+  background-color: #323232;
+  position: relative;
+  padding: 100px;
+}
+
+.border {
+  border: none;
+  border-top: 5px dotted #00adb5;
+  width: 4%;
+  margin: 100px auto;
+
+}
+.middle-container{
+  margin: 100px 0px;
+}
+
+.bottom-container {
+  background-color: #323232;
+  line-height: 1.5;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+.pro {
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+.intro {
+  width: 30%;
+  text-align: center;
+  margin: auto;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 160px;
+  bottom: 420px;
+  padding: 50px 0 20px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 190px;
+  top: 40px;
+}
+
+.circular {
+  border-radius: 50%;
+}
+
+.code-img {
+  border-radius: 50%;
+  float: right;
+  margin-left: 20px;
+}
+.skill-img {
+  border-radius: 30%;
+  float: left;  /* wrapping text only*/
+  margin-right: 30px;
+  margin-bottom: 25px;
+}
+/**.code-img-desc {
+  clear: right;
+}**/
+
+
+.skill-row {
+  margin: 100px auto 100px auto; /*clockwise starting at top**/
+  width: 70%;
+  text-align: left;
+
+}
+
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.copyright {
+  color: white;
+}
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+
+}
+
+.footer-link {
+  line-height: 2;
+
+}
